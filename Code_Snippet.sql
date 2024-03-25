@@ -7,9 +7,9 @@
 -- COMMAND ----------
 
 -- MAGIC %python
--- MAGIC rates_schema = StructType(fields=[StructField("Date", DateType(), False),
--- MAGIC                                   StructField("Australiandollar", DecimalType(), True),
--- MAGIC                                   StructField("NewZealanddollar", DecimalType(), True)
+-- MAGIC rates_schema = StructType(fields=[StructField("Date", StringType(), False),
+-- MAGIC                                   StructField("Australiandollar", StringType(), True),
+-- MAGIC                                   StructField("NewZealanddollar", StringType(), True)
 -- MAGIC                                   ])
 
 -- COMMAND ----------
